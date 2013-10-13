@@ -1,0 +1,37 @@
+NOTES:
+
+Gia to editing ton bunticles:
+
+*To pedio author siblironetai me nicknames (autocomplete) se periptosi pou autos pou kanei submit to arthro den einai o author 
+
+*O Author dialegei mia apo tis katigories gia tis opoies exei authoring rights.
+
+* O Author dialegei mia apo tis yparxouses playlists, h dhmiourgei mia kainuria (--> dinei ytids ton videos pou tin apartizoun & tis dinei name H dinei ytid tis playlist kateuthian)
+
+---YOUTUBE VIDEOS POLICY-----
+
+Kathe BuntClip pou kanoume gia tis bades tha einai se ksexoristi playlist (Bunt Clips) . Sto Band Profile view tha fainetai ksexorista to Bunt Clip.
+An den exei Bunt Clip i bada, tha leei 'No Bunt CLip' kai oi logged users tha borun na kanoun 'sign petition' 
+	gia na ginei to epomeno bunt clip gia auti tin bada.
+
+
+To "TV" mesa sta bands profiles na allazei to url, kai otan ginetai catch i paramteros $_GET['vid'] na scrollarei kai na kanei autoplay to video
+
+--tagging system--
+Oi users tha borun na vazoun tags (apo ena prokathorismeno pool) se oles tis selides. Se kathe selida tha yparxei ena section "Related Stuff" to opoio tha psaxnei gia alles selides me ta idia tags kai tha tis emfanizei sta related
+
+--bunticle authoring--
+o author na borei na xorizei to keimeno se perioxes, kai se kathe perioxi na borei na adistoixei kai 1 item apo tin playlist.
+	Oi perioxes autes tha xrisimopoihthoun kai gia to commenting system 
+
+--how to register a band--
+* a registered user pushes 'im a band! button' OR someone registers through 'im a band!' button
+* they send us band name & links
+* STAFF aproves ! then their profile is in editing mode for 7 days or until they push 'im ready to publish button' 
+	(to opoio einai 1-time use only). In editing mode they can edit the following sections: Bio, Links, Videos, Music, Pics
+
+
+--music page logic--
+* In a few words: TOP CONTENT!!!
+* Each category will get the top song of each band 
+* place utility buttons floated right in each playlist item for the following functions : Link to Band's Profile, Favorite, Share

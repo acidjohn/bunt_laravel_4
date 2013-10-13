@@ -1,0 +1,41 @@
+{
+	"name": "laravel/laravel",
+	"description": "The Laravel Framework.",
+	"keywords": ["framework", "laravel"],
+	"require": {
+		"laravel/framework": "4.0.*",
+		"prologue/alerts": "dev-master",
+		"zizaco/entrust": "dev-master",
+		"zizaco/confide": "1.0.x",
+		"intervention/image": "dev-master"
+	},
+	"autoload": {
+		"classmap": [
+			"app/commands",
+			"app/controllers",
+			"app/models",
+			"app/database/migrations",
+			"app/database/seeds",
+			"app/tests/TestCase.php"
+		]
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"php c:\\wamp\\www\\bunt4\\artisan optimize"
+		],
+		"pre-update-cmd": [
+			"php c:\\wamp\\www\\bunt4\\artisan clear-compiled"
+		],
+		"post-update-cmd": [
+			"php c:\\wamp\\www\\bunt4\\artisan optimize"
+		],
+		"post-create-project-cmd": [
+			"php artisan key:generate"
+		]
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev",
+	"intervention/image": "dev-master"
+}

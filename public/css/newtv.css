@@ -1,0 +1,146 @@
+body{
+font-family:Tahoma;
+font-size:12px;
+}
+#main-container {
+	/*margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;*/
+	padding: 10px;
+	padding-top:0;
+	background: #111;
+	border: 1px solid #444;
+	width: 910px;
+	margin-left: auto;
+	margin-right: auto;
+	/*position: absolute;
+	left:auto;
+	right: auto;*/
+
+}
+#main-container a,a:visited,a:hover{
+	text-decoration: none;
+}
+#tv-header{
+	width: 100%;
+	border-bottom:1px solid #222;
+}
+#tv-logo{
+	width: 400px;
+}
+#youtube-player{
+	max-width: 980px;
+height: 535px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+
+#menu-wrapper{
+	position: relative;
+	width: 140px;
+	display: inline-block;
+	vertical-align: top;
+}
+#menu-wrapper > ul {
+	display: inline;
+}
+#menu-wrapper > ul > li {
+	display: block;
+	padding:4px;
+	background-color: #666;
+	color:#ddd;
+	border: 1px solid #666;
+	margin-bottom: 2px;
+	/*border-radius: 20px;*/
+}
+#menu-wrapper > ul > li > a{
+	color: #ddd;
+}
+#menu-toggler{
+	width:12px;
+	height:auto;
+	background: orange;
+}
+
+
+#playlist-controls > ul > li {
+	display:inline;
+	margin-left:8px;
+	padding:5px;
+	background-color: rgb(194, 32, 32);
+	color:white;
+}
+#playlist-controls > ul > li > a {
+	width:100%;
+	color:white;
+}
+#playlist-controls > ul > li > a > img {
+	width:22px;
+}
+#tv-panel{
+	position: relative;
+	display: block;
+	padding: 8px;
+	/*overflow-y: scroll;*/
+	overflow-x: hidden;
+}
+.tv-playlist h2,.tv-video-container h3{
+	text-align: center;
+}
+.tv-video-container:first-child{
+	margin-left:12px;
+}
+.tv-video-container{
+	width: 260px;
+	float: left;
+	background: black;
+	margin: 0 12px 12px 0;
+	/*padding: 8px;*/
+}
+
+.tv-video-container h3{
+	font-size: 16px;
+	line-height: 1em;
+	color: black;
+	position: relative;
+	top: 42px;
+	color: white;
+	margin: 0;
+	display: block;
+}
+.tv-video-container img{
+	/*width:90%;
+	margin-top: 4px;
+	margin-left: auto;
+	margin-right: auto;*/
+	display: block;
+}
+.tv-video-container a{
+	display: block;
+	width:100%;
+	height: 146px;
+}
+.tv-video-container a .desc-panel{
+	/*background: rgba(20,20,20,0.9);*/
+	width: 100%;
+	height: 146px;
+	z-index: 100;
+	position: relative;
+	top: -146px;
+	opacity: 0;
+}
+.tv-video-container a:hover{
+	cursor: pointer;
+}
+.tv-video-container a:hover img{
+	opacity: 0.5;
+}
+.tv-video-container a:hover .desc-panel{
+	opacity: 1;
+}
+.currvid{
+	border:2px solid #fefefe;
+}
